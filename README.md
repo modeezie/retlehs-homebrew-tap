@@ -12,6 +12,7 @@ brew tap retlehs/tap
 
 | Name | Description | Install |
 |---|---|---|
+| [ansimotd](https://github.com/retlehs/ansimotd) | Display random ANSI art in your terminal | `brew install retlehs/tap/ansimotd` |
 | [quien](https://github.com/retlehs/quien) | A better WHOIS lookup tool | `brew install retlehs/tap/quien` |
 
 ## Casks
