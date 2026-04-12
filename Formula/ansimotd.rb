@@ -1,26 +1,26 @@
 class Ansimotd < Formula
   desc "Display random ANSI art in your terminal"
   homepage "https://github.com/retlehs/ansimotd"
-  version "1.0.2"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/retlehs/ansimotd/releases/download/v1.0.2/ansimotd_darwin_arm64.tar.gz"
-      sha256 "c216efdace25f7536371bc93ebcfd4655680a36da96af5cefcc58418414bec98"
+      url "https://github.com/retlehs/ansimotd/releases/download/v1.1.0/ansimotd_darwin_arm64.tar.gz"
+      sha256 "e73ae71c58c54749641071e4e9d6f007136ad7f90fb280dc2d2e58015eb29446"
     else
-      url "https://github.com/retlehs/ansimotd/releases/download/v1.0.2/ansimotd_darwin_amd64.tar.gz"
-      sha256 "1949569d93dcdac0c2a2734145323b7f80585e78d969be2e0b7a3e6091fd7604"
+      url "https://github.com/retlehs/ansimotd/releases/download/v1.1.0/ansimotd_darwin_amd64.tar.gz"
+      sha256 "65fbfe81870241bede9696b8a354b293fb989b0bc170c9a722431a219f445cf7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/retlehs/ansimotd/releases/download/v1.0.2/ansimotd_linux_arm64.tar.gz"
-      sha256 "f1de8fbfb94c4cf343d619c779df7e0a9ad8942c41d5f74c289a6200d4b0ca82"
+      url "https://github.com/retlehs/ansimotd/releases/download/v1.1.0/ansimotd_linux_arm64.tar.gz"
+      sha256 "d62e2651587afc96204fad516f907285cf0699177417eb00a3938a8d72f19d02"
     else
-      url "https://github.com/retlehs/ansimotd/releases/download/v1.0.2/ansimotd_linux_amd64.tar.gz"
-      sha256 "1770dd1d13e4682798d12bff734525ed5d1f7b6fa2bb045fc91c41f3d6b7d230"
+      url "https://github.com/retlehs/ansimotd/releases/download/v1.1.0/ansimotd_linux_amd64.tar.gz"
+      sha256 "ffccaddc20245dbf080859ca0f354b43c4276f1781de9c987059e942cc9bb8f4"
     end
   end
 
