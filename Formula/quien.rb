@@ -1,26 +1,26 @@
 class Quien < Formula
   desc "A better whois and domain intelligence toolkit"
   homepage "https://github.com/retlehs/quien"
-  version "0.7.2"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/retlehs/quien/releases/download/v0.7.2/quien_darwin_arm64.tar.gz"
-      sha256 "f7016c8de9c54e42a5d5385fe9adc7f2dddb4bf248d496a84c37d1a6c238bdc7"
+      url "https://github.com/retlehs/quien/releases/download/v0.8.0/quien_darwin_arm64.tar.gz"
+      sha256 "b2de27552fcb30fce7d6363d80bcf42255d69de15ead7638ea3a1679247f879e"
     else
-      url "https://github.com/retlehs/quien/releases/download/v0.7.2/quien_darwin_amd64.tar.gz"
-      sha256 "e2952caf3f0db92a00ccf0f0fc5a3f3744a0ab99f706b038a133aee9c9450a9e"
+      url "https://github.com/retlehs/quien/releases/download/v0.8.0/quien_darwin_amd64.tar.gz"
+      sha256 "fbe0edaf647c1ad6e79142e380920d5d4867b678dd2316968af6a598fbc50627"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/retlehs/quien/releases/download/v0.7.2/quien_linux_arm64.tar.gz"
-      sha256 "4088501cec58a88da95c2fe151d7ed8fbe0ec9f22b0c628012e402c8b3579347"
+      url "https://github.com/retlehs/quien/releases/download/v0.8.0/quien_linux_arm64.tar.gz"
+      sha256 "918d1f6bd37e3d72d67234c8fc0cf2828588940f3cec6e7b913a4b093c93f32d"
     else
-      url "https://github.com/retlehs/quien/releases/download/v0.7.2/quien_linux_amd64.tar.gz"
-      sha256 "f506b8310ab72283d27733e89df9c1f3775f35e68020494b4ae5cbf2784bc2c6"
+      url "https://github.com/retlehs/quien/releases/download/v0.8.0/quien_linux_amd64.tar.gz"
+      sha256 "e9df2436f7625a1e9392b24d70d422bc621793bccf4d83d8ddf83189e1b26784"
     end
   end
 
