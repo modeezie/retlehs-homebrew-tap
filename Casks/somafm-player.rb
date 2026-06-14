@@ -7,7 +7,7 @@ cask "somafm-player" do
   desc "Native macOS status bar player for SomaFM radio"
   homepage "https://github.com/retlehs/somafm-macos-player"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "SomaFM Menu Bar Player.app"
 
